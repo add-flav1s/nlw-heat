@@ -1,9 +1,7 @@
 html,
 body {
-
     --grey: hsl(240, 9%, 89%);
-
-
+    --black: hsl(240, 6%, 13%);
 
     height: 100%;
     font-family: 'Nunito', sans-serif;
@@ -13,7 +11,6 @@ body {
 body {
     display: grid;
     place-items: center;
-
 }
 
 main {
@@ -28,7 +25,26 @@ main {
     margin-left: auto;
     margin-right: auto;
     color: var(--grey);
+}
 
+.avatar {
+    width: 10rem;
+    margin: 11.5rem auto 0;
+
+    position: relative;
+}
+
+.avatar span {
+    position: absolute;
+    top: -15px;
+}
+
+.avatar>img {
+    width: 10rem;
+    height: 11.5rem;
+    object-fit: cover;
+
+    clip-path: ;
 }
 
 h1 {

@@ -1,6 +1,13 @@
 html,
 body {
+
+    --grey: hsl(240, 9%, 89%);
+
+
+
     height: 100%;
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -14,6 +21,14 @@ main {
     height: 812px;
 
     background-image: url('images/bg.png');
+}
+
+.container {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--grey);
+
 }
 
 h1 {

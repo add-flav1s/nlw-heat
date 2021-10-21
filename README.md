@@ -1,2 +1,7 @@
 # nlw-heat
-Repositorio da next level week heat.
+
+Repositorio com projetos DoWhile2021.
+
+## Recursos utilizados
+
+**(documentação em desenvolvimento)**

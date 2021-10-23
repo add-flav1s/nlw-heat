@@ -58,13 +58,17 @@ h1 {
 a {
     color: var(--grey);
     text-decoration: none;
-    align-content: center;
-
     margin-top: 0.25rem;
+
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
     margin-top: 2rem;
+    text-align: center;
 }
 
 ul {
